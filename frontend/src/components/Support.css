@@ -1,0 +1,35 @@
+.support-container{
+    margin-top: 30px;
+    display: flex;
+    margin-left: 150px;
+}
+.support-box{
+    padding: 10px;
+    background-color: #F3F5F7 ;
+    width: 250px;
+    height: 150px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    justify-content: center;
+}
+.support-box .icon{
+    font-size: 25px;
+    color: black;
+    margin-left: 15px;
+
+
+}
+.support-box .title{
+    font-size: 18px;
+    color: black;
+    margin-left: 15px;
+
+}
+.support-box .content{
+    font-size: 15px;
+    color:#6C7275;
+    margin-left: 15px;
+
+}

@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.carousel slide {
+  margin-right: 65px;
+  margin-left: 100px;
+}
+.carousel-inner {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+.carousel-item {
+  width: 90%;
+}
+
+.container {
+  margin-top: 20px;
+  background-color: white;
+}
+.columns {
+  display: inline-flex;
+}
+.col1 {
+  background-color: white;
+}
+.col1 h2 {
+  background-color: white;
+  font-size: 65px;
+  font-weight: 600;
+}
+.col1 h2 span {
+  color: grey;
+}
+
+.col2 {
+  margin-left: 200px;
+  margin-top: 80px;
+}
+.col2 p span {
+  color: black;
+}
+.col2 p {
+  color: #6c7275;
+  font-size: 15px;
+}

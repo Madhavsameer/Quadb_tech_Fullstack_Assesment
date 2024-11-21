@@ -1,0 +1,59 @@
+.banner-container{
+    margin-top: 50px;
+    width: 10000px;
+}
+.banner-columns{
+    display: flex;
+}
+.banner-col1{
+ margin-left:150px;
+background-size: cover;
+width: 500px;
+height: 550px;
+background-repeat: no-repeat;
+border: 1px solid #ddd;
+
+}
+.banner-col1 h3{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.banner-col1 a{
+    margin-left: 20px;
+}
+.banner-col2{
+    margin-left: 100px;
+    display: grid;
+}
+.col2-row1{
+    border: 1px solid #ddd;
+    width:380px;
+    height: 250px;
+    margin-left: 80px;
+    background-size: 55%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.col2-row1 h3{
+    margin-top: 20px;
+    margin-left: 200px;
+}
+.col2-row2 h3{
+    margin-top: 20px;
+    margin-left: 220px;
+}
+.col2-row1 a{
+    margin-left: 200px;
+}
+.col2-row2 a{
+    margin-left: 220px;
+}
+.col2-row2{
+    margin-left: 80px;
+    margin-top: 50px;
+    width:380px;
+    height: 250px;
+    background-size:55%;
+    background-repeat: no-repeat;
+    border: 1px solid #ddd;
+}

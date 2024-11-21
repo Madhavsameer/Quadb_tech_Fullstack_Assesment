@@ -1,0 +1,160 @@
+
+/* checkout */
+/* Container */
+.checkout-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    font-family: 'Arial', sans-serif;
+
+    
+  }
+  .product-page{
+    margin-bottom: 5vh;
+  }
+  .checkout-form {
+    width: 50%;
+  }
+  
+  .order-summary {
+    width: 35%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #575454;
+    border-radius: 10px;
+  }
+  
+  /* Form Section */
+  .form-section {
+    margin-bottom: 30px;
+    border: 1px solid #575454;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .form-section h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .input-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .input-row input,
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #575454;
+    border-radius: 5px;
+  }
+  
+  .checkbox-row {
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkbox-row input {
+    margin-right: 10px;
+  }
+  
+  .radio-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .radio-row label {
+    margin-left: 5px;
+  }
+  
+  button.place-order {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Order Summary */
+  .order-summary h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .order-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .order-item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+  }
+  
+  .quantity {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .quantity button {
+    padding: 5px;
+    border: 1px solid #ddd;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .coupon {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .coupon input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .coupon button {
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Misc */
+  p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  h4 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .checkout-container {
+        flex-direction: column;
+    }
+  
+    .checkout-form, .order-summary {
+        width: 100%;
+    }
+  }
+  
+  
